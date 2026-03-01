@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.navbar {
+    width: 1440px;
+    height: 48px;
+    background-color: #000;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__location__icon {
+    display: flex;
+    gap: 10px;
+    padding: 10px 70px;
+}
+
+.navbar__icon {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar__location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.navbar__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.navbar__select {
+    width: 71px;
+    height: 24px;
+    background-color: inherit;
+    color: white;
+    margin: 10px 60px;
+}
+
+.navbar__option {
+    color: white;
+}
+
+.main__navbar {
+    width: 1440px;
+    height: 90px;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__navbar__logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding: 30px 70px;
+}
+
+.main__navbar__links {
+    display: flex;
+    gap: 100px;
+    padding: 30px 0px;
+}
+
+.main__navbar__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #00A3FF;
+    text-decoration-thickness: 3px; 
+}
+
+.main__navbar__link:hover {
+    color: red;
+}
+
+.main__navbar__search__contact {
+    display: flex;
+    gap: 30px;
+    padding: 25px 0px;
+}
+
+.main__navbar__searchInput__searchIcon {
+    display: flex;
+    position: relative;
+}
+
+.main__navbar__searchInput {
+    width: 250px;
+    height: 38px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 0px 25px;
+}
+
+.main__navbar__searchInput:focus {
+    color: red;
+    background-color: #000;
+    font-size: 16px;
+}
+
+.main__navbar__searchIcon {
+    font-size: 24px;
+    position: absolute;
+    right: 45px;
+    top: 7px;
+}
+
+.main__navbar__contactIcon__contactBtn {
+    display: flex;
+    position: relative;
+}
+
+.main__navbar__contactIcon {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+.main__navbar__contactBtn {
+    width: 156px;
+    height: 38px;
+    background: #00A3FF;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-right: 30px;
+}
+
+.main__navbar__contactBtn:hover {
+    background-color: #000;
+    color: cyan;
+    font-size: 14px;
+    border: 5px solid cyan;
+}

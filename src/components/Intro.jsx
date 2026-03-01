@@ -2,6 +2,7 @@ import React from 'react';
 import "../App.css";
 import 'remixicon/fonts/remixicon.css';
 import { NavLink } from 'react-router-dom';
+// import '../public/images/notebook.png'
 
 const Intro = () => {
   return (
@@ -25,6 +26,18 @@ const Intro = () => {
           </div>
         </div>
       </nav>
+
+      <div className='intro__wrapper'>
+        <div className="intro">
+          <h1 className='intro__title'> New Laptop </h1>
+          <p className='intro__text'> Lorem ipsum dolor sit amet consectetur. </p>
+          <button className='intro__btn'> Shop now </button>
+
+          <div className='intro__images'>
+            {/* <img src="../public/images/notebook.png" alt="" /> */}
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

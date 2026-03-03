@@ -188,10 +188,7 @@ body {
     border: 1px solid ;
     border-radius: 20px;
     position: relative;
-    background-image: 
-        url('../public/images/intro_backgroundimg.png'),
-        url('../public/images/notebook.png'),
-        url('../public/images/halfNotebook.png');
+    background-image: url('./images/Landing_page.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -241,15 +238,12 @@ body {
 
 .catalogs__wrapper {
     width: 1440px;
-    height: 220px;
+    height: 280px;
     margin: auto;
     border: 1px solid ;
 }
 
 .catalogs {
-    width: 1231px;
-    height: 214px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
@@ -262,6 +256,7 @@ body {
     line-height: 48px;
     letter-spacing: 0.04em;
     color: #000000;
+    padding: 0px 40px;
 }
 
 .catalogs__directions {
@@ -274,10 +269,190 @@ body {
     height: 46px;
     background-color: #F5F5F5;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogs__direction:hover {
+    background-color: #000;
+    color: white;
+    transition: all 0.5s ease;
 }
 
 .catalogs__direction__left {
     font-size: 24px;
-    margin: 10px;
-    padding: 60px 0px;
+}
+
+.catalogs__direction__right {
+    font-size: 24px;
+}
+
+.catalogs__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.catalogs__card {
+    width: 170px;
+    height: 145px;
+    border: 2px solid;
+}
+
+.catalogs__card:hover {
+    background-color: #00A3FF;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.catalogs__img {
+    width: 56px;
+    height: 56px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.catalogs__card__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.catalogs__card__text:hover {
+    color: white;
+}
+
+.products__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1440px;
+  height: 1950px;
+  margin: auto;
+  border: 1px solid ;
+}
+
+.product__card {
+  width: 300px;
+  height: 280px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  padding-top: 20px;
+}
+
+.discount__btn {
+    width: 200px;
+    height: 56px;
+    background: #00A3FF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin: 0px 20px;
+}
+
+.discount__btn:hover {
+    background-color: white;
+    color: #00A3FF;
+    border: 5px solid #00A3FF;
+}
+
+.top__products__wrapper {
+    width: 1440px;
+    height: auto;
+    border: 1px solid;
+    margin: auto;
+}
+
+.top__products {
+    width: 1232px;
+    height: 450px;
+    margin: auto;
+}
+
+.top__products__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding: 20px 0px;
+}
+
+.top__products__cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.top__products__card {
+    width: 270px;
+    height: 330px;
+}
+
+.top__products__product__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.top__products__price__btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.top__products__discount__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DB4444;
+}
+
+.top__products__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #000000;
+}
+
+.top__products__btn {
+    width: 133px;
+    height: 30px;
+    background: #00A3FF;
+    border-radius: 5px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.top__products__btn:hover {
+    background-color: white;
+    color: #00A3FF;
+    border: 1px solid #00A3FF;
 }

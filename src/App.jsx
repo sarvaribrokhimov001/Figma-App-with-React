@@ -1,5 +1,4 @@
 import React from 'react';
-// import Router from './router/Router';
 import "./App.css";
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
@@ -15,7 +14,6 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      {/* <Router/> */}
       <Intro/>
       <Catalogs/>
       <Discounts/>
@@ -27,5 +25,4 @@ const App = () => {
     </div>
   )
 }
-
 export default App

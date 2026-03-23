@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import "../App.css";
 import 'remixicon/fonts/remixicon.css';
 import axios from 'axios';

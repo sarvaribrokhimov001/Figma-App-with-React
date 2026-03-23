@@ -14,7 +14,7 @@ const TopProducts = () => {
               <h6 className='top__products__product__name'> S-Series Comfort Chair </h6>
               <div className='top__products__price__btn'>
                 <p className='top__products__discount__price'> $375 </p>
-                <p className='top__products__price'> <del>$400</del> </p>
+                <p className='top__products__price'> <del> $400 </del> </p>
                 <button className='top__products__btn'> Buyurtma berish </button>
               </div>
             </div>
@@ -24,7 +24,7 @@ const TopProducts = () => {
               <h6 className='top__products__product__name'> S-Series Comfort Chair </h6>
               <div className='top__products__price__btn'>
                 <p className='top__products__discount__price'> $375 </p>
-                <p className='top__products__price'> <del>$400</del> </p>
+                <p className='top__products__price'> <del> $400 </del> </p>
                 <button className='top__products__btn'> Buyurtma berish </button>
               </div>
             </div>
@@ -34,7 +34,7 @@ const TopProducts = () => {
               <h6 className='top__products__product__name'> S-Series Comfort Chair </h6>
               <div className='top__products__price__btn'>
                 <p className='top__products__discount__price'> $375 </p>
-                <p className='top__products__price'> <del>$400</del> </p>
+                <p className='top__products__price'> <del> $400 </del> </p>
                 <button className='top__products__btn'> Buyurtma berish </button>
               </div>
             </div>
@@ -44,18 +44,13 @@ const TopProducts = () => {
               <h6 className='top__products__product__name'> S-Series Comfort Chair </h6>
               <div className='top__products__price__btn'>
                 <p className='top__products__discount__price'> $375 </p>
-                <p className='top__products__price'> <del>$400</del> </p>
+                <p className='top__products__price'> <del> $400 </del> </p>
                 <button className='top__products__btn'> Buyurtma berish </button>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
     </div>
   )
 }
-
 export default TopProducts

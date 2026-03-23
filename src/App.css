@@ -456,3 +456,75 @@ body {
     color: #00A3FF;
     border: 1px solid #00A3FF;
 }
+
+.footer__wrapper {
+    width: 1440px;
+    background-color: #000;
+    color: white;
+    margin: 50px auto 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer__section {
+    width: 250px;
+}
+
+.footer__logo {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer__section ul {
+    padding: 0;
+}
+
+.footer__section ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.footer__section ul li:hover {
+    color: #00A3FF;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.footer__icons i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer__icons i:hover {
+    color: #00A3FF;
+    transform: scale(1.2);
+}
+
+.footer__bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #aaa;
+}
